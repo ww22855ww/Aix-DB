@@ -25,6 +25,8 @@ services:
       - "9001:9001"
 
     volumes:
+      # 前端构建文件（覆盖镜像内的旧文件）
+      - ../web/dist:/usr/share/nginx/html
       # PostgreSQL 数据目录
       - ./volume/pg_data:/var/lib/postgresql/data
       # MinIO 数据目录

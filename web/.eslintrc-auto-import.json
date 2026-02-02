@@ -133,6 +133,8 @@
     "until": true,
     "useActiveElement": true,
     "useAnimate": true,
+    "useAppStore": true,
+    "useAppStoreWithOut": true,
     "useArrayDifference": true,
     "useArrayEvery": true,
     "useArrayFilter": true,
@@ -321,8 +323,6 @@
     "watchThrottled": true,
     "watchTriggerable": true,
     "watchWithFilter": true,
-    "whenever": true,
-    "useAppStore": true,
-    "useAppStoreWithOut": true
+    "whenever": true
   }
 }

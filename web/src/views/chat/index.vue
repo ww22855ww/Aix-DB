@@ -904,8 +904,8 @@ const scrollToBottom = () => {
 }
 
 const keys = useMagicKeys()
-const enterCommand = keys.Enter
-const enterCtrl = keys.Enter
+const enterCommand = keys['Command+Enter']  // Mac: Cmd+Enter
+const enterCtrl = keys['Ctrl+Enter']        // Windows: Ctrl+Enter
 
 const activeElement = useActiveElement()
 const notUsingInput = computed(
